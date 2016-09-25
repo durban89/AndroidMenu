@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "加载菜单", Toast.LENGTH_SHORT).show();
                 break;
         }
-        return true;
+        return super.onOptionsItemSelected(item);
 
     }
 }
